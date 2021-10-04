@@ -1,14 +1,14 @@
-[![Slam](https://telegra.ph/file/db03910496f06094f1f7a.jpg)](https://youtu.be/Pk_TthHfLeE)
+[![SparkXcloud](https://telegra.ph/file/be6ea2d725f97723d54f3.jpg)](https://youtu.be/Pk_TthHfLeE)
 
-# Slam Mirror Bot
-![GitHub Repo stars](https://img.shields.io/github/stars/SlamDevs/slam-mirrorbot?color=blue&style=flat)
-![GitHub forks](https://img.shields.io/github/forks/SlamDevs/slam-mirrorbot?color=green&style=flat)
-![GitHub contributors](https://img.shields.io/github/contributors/SlamDevs/slam-mirrorbot?style=flat)
-![GitHub watchers](https://img.shields.io/github/watchers/SlamDevs/slam-mirrorbot)
+# SparkXcloud-Gdrive-MirrorBot
+![GitHub Repo stars](https://img.shields.io/github/stars/Spark-X-Cloud/SparkXcloud-Gdrive-MirrorBot?color=blue&style=flat)
+![GitHub forks](https://img.shields.io/github/forks/Spark-X-Cloud/SparkXcloud-Gdrive-MirrorBot?color=green&style=flat)
+![GitHub contributors](https://img.shields.io/github/contributors/Spark-X-Cloud/SparkXcloud-Gdrive-MirrorBot?style=flat)
+![GitHub watchers](https://img.shields.io/github/watchers/Spark-X-Cloud/SparkXcloud-Gdrive-MirrorBot)
 ![Docker Pulls](https://img.shields.io/docker/pulls/breakdowns/mega-sdk-python?label=Docker%20Pull)
-[![Channel](https://img.shields.io/badge/Join%20Channel-!-red)](https://t.me/SlamMirrorUpdates)
+[![Channel](https://img.shields.io/badge/Join%20Channel-!-red)](https://t.me/SparkXcloud)
 
-**Slam Mirror Bot** is a _multipurpose_ Telegram Bot writen in Python for mirroring files on the Internet to our beloved Google Drive.
+**SparkXcloud-Gdrive-MirrorBot** is a _multipurpose_ Telegram Bot writen in Python for mirroring files on the Internet to our beloved Google Drive.
 
 # Features supported:
 <details>
@@ -16,7 +16,7 @@
 
 ## Additional Features
 - qBittorrent supported
-- Updater (**NOTE**: You must upload your **token.pickle** to Index and fill your **token.pickle** url to **TOKEN_PICKLE_URL**, because your **token.pickle** will deleted after update, for more info please check [Setting up config file](https://github.com/SlamDevs/slam-mirrorbot/tree/master#setting-up-config-file))
+- Updater (**NOTE**: You must upload your **token.pickle** to Index and fill your **token.pickle** url to **TOKEN_PICKLE_URL**, because your **token.pickle** will deleted after update, for more info please check [Setting up config file](https://github.com/harshhaareddy/SparkXcloud-Gdrive-MirrorBot/tree/master#setting-up-config-file))
 - Limiting size Torrent/Direct, Tar/Unzip, Mega, cloning Google Drive support
 - Stop duplicate cloning Google Drive & mirroring Mega support
 - Tar/Unzip Google Drive link support
@@ -76,7 +76,7 @@ Deploying is pretty much straight forward and is divided into several steps as f
 
 - Clone this repo:
 ```
-git clone https://github.com/SlamDevs/slam-mirrorbot mirrorbot/
+git clone https://github.com/Spark-X-Cloud/SparkXcloud-Gdrive-MirrorBot/
 cd mirrorbot
 ```
 
@@ -135,16 +135,16 @@ Fill up rest of the fields. Meaning of each fields are discussed below:
 - **DOWNLOAD_DIR**: The path to the local folder where the downloads should be downloaded to
 - **DOWNLOAD_STATUS_UPDATE_INTERVAL**: A short interval of time in seconds after which the Mirror progress message is updated. (I recommend to keep it `5` seconds at least)  
 - **AUTO_DELETE_MESSAGE_DURATION**: Interval of time (in seconds), after which the bot deletes it's message (and command message) which is expected to be viewed instantly. (**Note**: Set to `-1` to never automatically delete messages)
-- **UPSTREAM_REPO**: Link for Bot Upstream Repo, if you want default update, fill `https://github.com/SlamDevs/slam-mirrorbot`.
+- **UPSTREAM_REPO**: Link for Bot Upstream Repo, if you want default update, fill `https://github.com/Spark-X-Cloud/SparkXcloud-Gdrive-MirrorBot`.
 - **UPSTREAM_BRANCH**: Branch name for Bot Upstream Repo, fill `master`.
 ### Optional Field
 - **ACCOUNTS_ZIP_URL**: Only if you want to load your Service Account externally from an Index Link. Archive the accounts folder to a zip file. Fill this with the direct link of that file.
 - **TOKEN_PICKLE_URL**: Only if you want to load your **token.pickle** externally from an Index Link. Fill this with the direct link of that file.
-- **DATABASE_URL**: Your Database URL. See [Generate Database](https://github.com/SlamDevs/slam-mirrorbot/tree/master#generate-database) to generate database (**NOTE**: If you use database you can save your sudo id permanent using `/addsudo` command).
+- **DATABASE_URL**: Your Database URL. See [Generate Database](https://github.com/Spark-X-Cloud/SparkXcloud-Gdrive-MirrorBot/tree/master#generate-database) to generate database (**NOTE**: If you use database you can save your sudo id permanent using `/addsudo` command).
 - **AUTHORIZED_CHATS**: Fill user_id and chat_id (not username) of you want to authorize, Seprate them with space, Examples: `-0123456789 -1122334455 6915401739`.
 - **SUDO_USERS**: Fill user_id (not username) of you want to sudoers, Seprate them with space, Examples: `0123456789 1122334455 6915401739` (**NOTE**: If you want save sudo id permanent without database, you must fill your sudo id there).
 - **IS_TEAM_DRIVE**: Set to `True` if `GDRIVE_FOLDER_ID` is from a Team Drive else `False` or Leave it empty.
-- **USE_SERVICE_ACCOUNTS**: (Leave empty if unsure) Whether to use Service Accounts or not. For this to work see [Using Service Accounts](https://github.com/SlamDevs/slam-mirrorbot#generate-service-accounts-what-is-service-account) section below.
+- **USE_SERVICE_ACCOUNTS**: (Leave empty if unsure) Whether to use Service Accounts or not. For this to work see [Using Service Accounts](https://github.com/Spark-X-Cloud/SparkXcloud-Gdrive-MirrorBot#generate-service-accounts-what-is-service-account) section below.
 - **INDEX_URL**: Refer to https://gitlab.com/ParveenBhadooOfficial/Google-Drive-Index The URL should not have any trailing '/'
 - **MEGA_API_KEY**: Mega.nz api key to mirror mega.nz links. Get it from [Mega SDK Page](https://mega.nz/sdk)
 - **MEGA_EMAIL_ID**: Your email id you used to sign up on mega.nz for using premium accounts (Leave th)
@@ -215,7 +215,7 @@ sudo docker run mirrorbot
 ```
 
 ## Deploying on Heroku with Github Workflow
-<p><a href="https://github.com/SlamDevs/slam-mirrorbot/blob/master/heroku-guide.md"> <img src="https://img.shields.io/badge/Deploy%20Guide-blueviolet?style=for-the-badge&logo=heroku" width="180""/></a></p>
+<p><a href="https://github.com/Spark-X-Cloud/SparkXcloud-Gdrive-MirrorBot/blob/master/heroku-guide.md"> <img src="https://img.shields.io/badge/Deploy%20Guide-blueviolet?style=for-the-badge&logo=heroku" width="180""/></a></p>
 
 ## Deploying on Heroku with heroku-cli and Goorm IDE
 <p><a href="https://telegra.ph/How-to-Deploy-a-Mirror-Bot-to-Heroku-with-CLI-05-06"> <img src="https://img.shields.io/badge/see%20on%20telegraph-grey?style=for-the-badge" width="190""/></a></p>
@@ -285,7 +285,7 @@ python3 gen_sa_accounts.py --download-keys project_id
 python3 add_to_team_drive.py -d SharedTeamDriveSrcID
 ```
 
-# Youtube-dl authentication using [.netrc](https://github.com/SlamDevs/slam-mirrorbot/blob/master/.netrc) file
+# Youtube-dl authentication using [.netrc](https://github.com/Spark-X-Cloud/SparkXcloud-Gdrive-MirrorBot/blob/master/.netrc) file
 For using your premium accounts in Youtube-dl or for protected Index Links, edit the netrc file according to following format:
 ```
 machine host login username password my_youtube_password
@@ -296,18 +296,3 @@ machine example.workers.dev password index_password
 ```
 Where host is the name of extractor (eg. Youtube, Twitch). Multiple accounts of different hosts can be added each separated by a new line.
 
-# Credits
-
-Thanks to:
-- [out386](https://github.com/out386) heavily inspired from Telegram Bot which is written in JS
-- [Izzy12](https://github.com/lzzy12) for build up this bot from scratch
-- [jaskaranSM](https://github.com/jaskaranSM) for build up this bot from scratch
-- [Dank-del](https://github.com/Dank-del) for base repo
-- [magneto261290](https://github.com/magneto261290) for some features
-- [SVR666](https://github.com/SVR666) for some features & fixes
-- [anasty17](https://github.com/anasty17) for some features & help
-- [breakdowns](https://github.com/breakdowns) for slam-mirrorbot
-- [zevtyardt](https://github.com/zevtyardt) for some direct links
-- [yash-dk](https://github.com/yash-dk) for implementation qBittorrent on Python
-
-And many more people who aren't mentioned here, but may be found in [Contributors](https://github.com/SlamDevs/slam-mirrorbot/graphs/contributors).

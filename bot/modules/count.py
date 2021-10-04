@@ -1,5 +1,5 @@
-# Implement By - @anasty17 (https://github.com/SlamDevs/slam-mirrorbot/pull/111)
-# (c) https://github.com/SlamDevs/slam-mirrorbot
+# Implement By - @anasty17 (https://github.com/Spark-X-Cloud/SparkXcloud-Gdrive-MirrorBot/pull/111)
+# (c) https://github.com/Spark-X-Cloud/SparkXcloud-Gdrive-MirrorBot
 # All rights reserved
 
 from telegram.ext import CommandHandler

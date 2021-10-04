@@ -1,5 +1,5 @@
-# Implement By - @anasty17 (https://github.com/SlamDevs/slam-mirrorbot/commit/80d33430715b4296cd253f62cefc089a81937ebf)
-# (c) https://github.com/SlamDevs/slam-mirrorbot
+# Implement By - @anasty17 (https://github.com/Spark-X-Cloud/SparkXcloud-Gdrive-MirrorBot/commit/80d33430715b4296cd253f62cefc089a81937ebf)
+# (c) https://github.com/Spark-X-Cloud/SparkXcloud-Gdrive-MirrorBot
 # All rights reserved
 
 from .status import Status

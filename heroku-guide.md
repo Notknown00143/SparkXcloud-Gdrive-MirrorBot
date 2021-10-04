@@ -1,8 +1,8 @@
-## Deploying slam-mirrorbot on Heroku with Github Workflows.
+## Deploying SparkXcloud-Gdrive-MirrorBot on Heroku with Github Workflows.
 
 ## Pre-requisites
 
-- [token.pickle](https://github.com/SlamDevs/slam-mirrorbot#getting-google-oauth-api-credential-file)
+- [token.pickle](https://github.com/Spark-X-Cloud/SparkXcloud-Gdrive-MirrorBot#getting-google-oauth-api-credential-file)
 - [Heroku](heroku.com) accounts
 - Recommended to use 1 App in 1 Heroku account
 - Don't use bin/fake credits card, because your Heroku account will get banned.
@@ -20,7 +20,7 @@
 	* `HEROKU_EMAIL` Heroku Account Email Id in which the above app will be deployed
 	* `HEROKU_API_KEY` Your Heroku API key, get it from https://dashboard.heroku.com/account
 	* `HEROKU_APP_NAME` Your Heroku app name, Name Must be unique
-	* `CONFIG_FILE_URL` Fill [This](https://raw.githubusercontent.com/Slam-Team/slam-mirrorbot/master/config_sample.env) in any text editor, and remove the second line. Go to https://gist.github.com and paste your config data from the previous step. Rename the file to config.env and upload it. Click on Raw, copy the link and that's your CONFIG_FILE_URL. Refer to below images for clarity. 
+	* `CONFIG_FILE_URL` Fill [This](https://raw.githubusercontent.com/Spark-X-Cloud/SparkXcloud-Gdrive-MirrorBot/master/config_sample.env) in any text editor, and remove the second line. Go to https://gist.github.com and paste your config data from the previous step. Rename the file to config.env and upload it. Click on Raw, copy the link and that's your CONFIG_FILE_URL. Refer to below images for clarity. 
 
 	![steps 1 to 3](https://telegra.ph/file/1d8fec16516a87ba9d1ac.jpg)
 
